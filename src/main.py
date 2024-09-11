@@ -5,8 +5,8 @@ import urllib.parse
 import requests
 
 host = 'imap.gmail.com'
-email = 'carlostorressjrdev@gmail.com'
-password = 'hjqe tkom neqk bcuf'
+email = 'seuemail@gmail.com'
+password = 'xxxx xxxx xxxx xxxx'
 
 with Imbox(host, username=email, password=password, ssl=True) as imbox:
     messages = imbox.messages(unread=True)
